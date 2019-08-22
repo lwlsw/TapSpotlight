@@ -51,7 +51,7 @@ static void initFakeHomeBar() {
 		CGRectMake(0, [[UIScreen mainScreen] bounds].size.height - 35,
 		[[UIScreen mainScreen] bounds].size.width/width, height)];
 		//Width
-	fakeHomeBar.center = CGPointMake([[UIScreen mainScreen] bounds].size.width/2, [[UIScreen mainScreen] bounds].size.height);
+	fakeHomeBar.center = CGPointMake([[UIScreen mainScreen] bounds].size.width/2, height/2);
 	fakeHomeBar.opaque = NO;
 	fakeHomeBar.windowLevel = UIWindowLevelStatusBar;
 	if(!showBar){

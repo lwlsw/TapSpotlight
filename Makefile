@@ -1,5 +1,6 @@
-DEBUG = 0
-FINALPACKAGE = 1
+THEOS_DEVICE_IP = 10.0.0.104
+DEBUG = 1
+FINALPACKAGE = 0
 
 include $(THEOS)/makefiles/common.mk
 
